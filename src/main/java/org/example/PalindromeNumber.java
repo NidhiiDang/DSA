@@ -1,6 +1,6 @@
 package org.example;
 
-class PalindromeNumber {
+public class PalindromeNumber {
     public void isPalindrome(int num){
 
         int reverse=0;

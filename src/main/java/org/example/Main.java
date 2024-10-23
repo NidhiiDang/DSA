@@ -3,8 +3,9 @@ public class Main {
 
     public static void main(String[] args) {
         PalindromeNumber p = new PalindromeNumber();
-        p.isPalindrome(234);
-        p.isPalindrome(121);
+        FactorialOfNumber f = new FactorialOfNumber();
+        p.isPalindrome(1221);
+        f.findFactorial(5);
     }
 }
 
