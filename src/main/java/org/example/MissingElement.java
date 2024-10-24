@@ -1,7 +1,7 @@
 package org.example;
 
 //Find Missing Element in a sorted Array from 1 to n Note* there is only one missing element....
-
+//Asked in unthinkable gfg practice question
 public class MissingElement {
     public int missingElementOfSortedArray(int[] arr,int n){
         int TotalSum = n * (n+1)/2;
