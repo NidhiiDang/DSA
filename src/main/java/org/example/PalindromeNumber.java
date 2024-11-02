@@ -21,4 +21,26 @@ public class PalindromeNumber {
         }
 
     }
+    public static void main(String[] args) {
+        PalindromeNumber p = new PalindromeNumber();
+        p.isPalindrome(2332);
+    }
 }
+
+//two pointer approach in strings
+
+//public boolean isPalindrome(String s){
+//    int i=0,j=s.length()-1;
+//
+//    while(i<j){
+//        if(s.charAt(i)==s.charAt(j)){
+//            i++;
+//            j--;
+//        }
+//        else{
+//            return false;
+//        }
+//    }
+//    return true;
+//}
+
