@@ -23,7 +23,6 @@ public class MatrixMultiplication {
             System.out.println();
         }
 
-
         System.out.println("Enter Second matrix dimensions: ");
 
         int p = sc.nextInt();
@@ -48,7 +47,7 @@ public class MatrixMultiplication {
             for(int j=0;j<p;j++){
                 C[i][j]=0;
                 for(int k =0; k<n;k++){
-                    C[i][j]=A[i][k]*B[k][j];
+                    C[i][j]+=A[i][k]*B[k][j];
                 }
             }
         }

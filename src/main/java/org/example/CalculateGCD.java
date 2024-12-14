@@ -31,6 +31,6 @@ public class CalculateGCD {
 
     public static void main(String[] args) {
         CalculateGCD c = new CalculateGCD();
-        c.gcdCalculator(4,10);
+        c.gcdCalculator(8,12);
     }
 }
